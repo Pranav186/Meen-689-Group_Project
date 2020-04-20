@@ -27,3 +27,13 @@ It will require the following to run:
 Results
 1) Position in X and Y
 2) Velocity in X and Y
+
+# Particle Filter
+The data that is used in this filter is the same as that in kalman filter. Therefore, as mentioned in the section of kalman filter, please keep files 'meen689' and 'sensorlog_40.4m.mat' in the same folder as particle filter files. 
+There are 3 files for the particle filter. The main file is 'particle_filter2d.m', which has the complete algorithm. The other two files namely 'multinomial' and 'residual' are functions that are called in the script.
+Process and sensor noises are assumed to be gaussian. There are two resampling methods used: residual and multinomial. Resampling is at the last part of the script and only one method can be used at a time. One of them is commented out and to check the estimae from the other method, comment out the present one and uncomment the other one. Looking at the plots, it is observed that both the methods work equally well in estimating position but in estimating velocity, residual method works better than multinomial (which is expected).
+Since multinomial method works with random numbers, each run might give a different result (which is also the case with residual, but very less deviation). Also, increasing the number of particles smoothens out the readings. 
+Script will give 2 plots:
+1. Position in x and y
+2. Velocity in x and y
+
