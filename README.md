@@ -13,6 +13,6 @@ It will require the following to run:
 2)Accelero_to_position.m (Function to convert acceleration to position, velocity)\
 3)Gps_to_bodyframe.m ( Function to convert GPS data to bodyframe)\
 4)BayesianEstimate.m ( Function to filter by Bayesian estimate)\
-Results:
+Results:\
 1)Position in X and Y\
 2) Velocity in X and Y
