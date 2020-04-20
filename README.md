@@ -19,7 +19,7 @@ The plots of the estimated position and velocity are shown. The results have saw
 
 # Bayesian Filter
 The file 'SensorFusion.m' is the main file for Bayesian Filter.
-It will require the following to run:\
+It will require the following to run:
 
 1)sensorlog_40.4m.mat (data from IMU, GPS)\
 2)Accelero_to_position.m (Function to convert acceleration to position, velocity)\
@@ -30,7 +30,7 @@ Results
 1) Position in X and Y
 2) Velocity in X and Y
 
-![]()
+![](Images/BayesFilter.png)
 
 # Particle Filter
 The data that is used in this filter is the same as that in kalman filter. Therefore, as mentioned in the section of kalman filter, please keep files 'meen689' and 'sensorlog_40.4m.mat' in the same folder as particle filter files. 
