@@ -37,5 +37,5 @@ Script will give 2 plots:
 1. Position in x and y
 2. Velocity in x and y
 
-![](Images/particle_position_plot.JPG)
-![](Images/particle_velocity_plot.JPG)
+![](Images/particle_position_plot.jpg)
+![](Images/particle_velocity_plot.jpg)
