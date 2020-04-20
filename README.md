@@ -1,5 +1,5 @@
 # Meen-689-Group_Project
-Group Members/
+Group Members
 1. Sumil Sood [329006457]
 2. Pranav Natu [430000211]
 3. Siddharth Sane [829009471]
