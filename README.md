@@ -13,7 +13,9 @@ The file 'Kalman_filter.m' is the main file and contains all the code required t
 The data is collected and stored in two files named 'sensorlog_40.4m.mat' (data from IMU, GPS) and 'meen689' (data from ultrasonic sensor).
 
 The plots of the estimated position and velocity are shown. The results have saw like graph because the estimate tends to divert due the the noisy accelerometer measurements but is kept in check as soon as the GPS measurement comes in whose frequency is less.
+
 ![](Images/Kalman_position_plot.JPG)
+![](Images/Kalman_velocity_plot.JPG)
 
 # Bayesian Filter
 The file 'SensorFusion.m' is the main file for Bayesian Filter.
