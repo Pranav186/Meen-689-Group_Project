@@ -1,9 +1,9 @@
 # Meen-689-Group_Project
 Group Members
-Sumil Sood [329006457]
-Pranav Natu [430000211]
-Siddharth Sane [829009471]
-Jay Shah [930001954]
+Sumil Sood [329006457]/
+Pranav Natu [430000211]/
+Siddharth Sane [829009471]/
+Jay Shah [930001954]/
 Aditya Bitra [230002273]
 # Kalman Filter
 The data for Accelerometer and GPS was collected using the mobile phone sensors and was collected while holding the mobile still and moving in a straight line for 45 meters at a constant velocity. Although the expected path is a straight line and expected velocity is constant but there is always some disturbances and therefore the actual path is approximated using the Kalman filter.\
