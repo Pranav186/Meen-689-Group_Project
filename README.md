@@ -30,7 +30,7 @@ Results
 1) Position in X and Y
 2) Velocity in X and Y
 
-![](Images/BayesFilter.png)
+![](Images/BayesianFilter.png)
 
 # Particle Filter
 The data that is used in this filter is the same as that in kalman filter. Therefore, as mentioned in the section of kalman filter, please keep files 'meen689' and 'sensorlog_40.4m.mat' in the same folder as particle filter files. 
